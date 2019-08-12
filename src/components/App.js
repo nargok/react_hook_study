@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import EventForm from './eventForm';
 import Events from '../components/events';
+import OperationLogs from '../components/operationLogs';
 import AppContext from '../contexts/AppContext';
 import reducer from '../reducers/index';
 
@@ -19,6 +20,7 @@ const App = () => {
       <div className="container-fruid">
         <EventForm />
         <Events />
+        <OperationLogs />
       </div>
   </AppContext.Provider>
   );
